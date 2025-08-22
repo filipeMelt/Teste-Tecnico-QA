@@ -8,9 +8,9 @@ ${checkout_id}              id=checkout
 ${firstProduct_id}          id=product-item-info_888
 ${size_id}                  id=option-label-size-157-item-179
 ${color_id}                 id=option-label-color-93-item-49
+${search_id}                id=search
 ${buttonAddToCart_css}      css=button[title="Add to Cart"]
 ${proceedToCheckout_css}    css=button.action.primary.checkout[title="Proceed to Checkout"]
-${search_id}                id=search
 ${firstName_css}            css=input[name="firstname"]
 ${lastName_css}             css=input[name="lastname"]
 ${company_css}              css=input[name="company"]
@@ -21,29 +21,29 @@ ${city_css}                 css=input[name="city"]
 ${zipPostalCode_css}        css=input[name="postcode"]
 ${phoneNumber_css}          css=input[name="telephone"]
 ${addToCart}                css=div.message-success.success.message
-${removeItem_xpath}         xpath=//a[@title='Remove item']
-${cart_xpath}               xpath=//a[@class='action showcart']
-${buttonOk_xpath}           xpath=/html/body/div[4]/aside[2]/div[2]/footer/button[2]
 ${buttonNext_css}           css=#shipping-method-buttons-container button[data-role="opc-continue"]
-# ${buttonNext_xpath}         xpath=//*[@id="shipping-method-buttons-container"]/div/button/span
 ${buttonPlaceOrder_css}     css=button[title="Place Order"]
 ${message_css}              css=div.page-title-wrapper span.base[data-ui-id="page-title-wrapper"]
 ${address_block_css}        css=div.shipping-address-item.selected-item
-${produto}                  Cronus Yoga Pant
 ${loadingMask_css}          css=.loading-mask
 ${progressShippingActive}   css=.opc-progress-bar-item._active[data-step="shipping"]
-${loadingMask_css}        css=.loading-mask
-${address_block_css}      css=div.shipping-address-item.selected-item
-${shipping_form_inline}   css=form#co-shipping-form:visible
-${shipping_form_modal}    css=.modal-popup._show form[data-role="form-popup"]:visible
-${btn_new_address}        css=#checkout-step-shipping button.action.action-show-pop
+${loadingMask_css}          css=.loading-mask
+${address_block_css}        css=div.shipping-address-item.selected-item
+${shipping_form_inline}     css=form#co-shipping-form:visible
+${shipping_form_modal}      css=.modal-popup._show form[data-role="form-popup"]:visible
+${btn_new_address}          css=#checkout-step-shipping button.action.action-show-pop
+${removeItem_xpath}         xpath=//a[@title='Remove item']
+${cart_xpath}               xpath=//a[@class='action showcart']
+${buttonOk_xpath}           xpath=/html/body/div[4]/aside[2]/div[2]/footer/button[2]
+${produto}                  Cronus Yoga Pant
+
 *** Keywords ***
 
 preencho o campo busca
     Fill Text    ${search_id}    ${produto}
     Press Keys    ${search_id}    Enter
 
-Seleciono tamanho e cor
+seleciono tamanho e cor
     Wait For Elements State    ${firstProduct_id}    visible    30s
     Wait For Elements State    ${firstProduct_id}    stable     5s
     Click    ${firstProduct_id}
@@ -141,7 +141,7 @@ preencher formulario
 
 eu pesquiso por um produto
     eu acesso a tela de login
-    informo um Email e uma Senha válidos e clico em Sign In
+    informo um email e uma senha válidos e clico em "Sign In"
     preencho o campo busca
 
 seleciono o tamanho e a cor e clico em "Add to Cart"
@@ -153,7 +153,7 @@ o produto deve ser adicionado ao carrinho com sucesso
     visualizo produtos no carrinho
     excluir produtos no carrinho
 
-Validar Compra
+validar compra
     Sleep    2
     Wait For Elements State    ${message_css}    visible    30s
     ${msg}=    Get Text        ${message_css}
@@ -171,4 +171,4 @@ eu realizo a finalização da compra
     clico no botao place order
 
 a mensagem de confirmação de compra deve ser exibida com sucesso
-    Validar Compra
+    validar compra

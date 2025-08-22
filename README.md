@@ -21,7 +21,7 @@ rfbrowser init
 pip install -r requirements.txt
 
 
---- Como executar os testes ---
+Como executar os testes
 
 1. Clonar o repositório
     git clone https://seu-repositorio.git

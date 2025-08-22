@@ -9,7 +9,7 @@ ${signIn_xpath}            xpath=//div[@class='panel header']//a[contains(@href,
 ${buttonSignIn}            xpath=//fieldset[@class="fieldset login"]//button//span[normalize-space(.)="Sign In"]
 ${mensagem_erro_xpath}     xpath=//*[@id="maincontent"]/div[2]/div[2]/div/div/div
 ${validaLogin}             body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span
-${email}                   testeestapar@estapar.com
+${email}                   alexandreteste@gmail.com
 ${pass}                    f7R2xQ9pL0zM
 
 *** Keywords ***
@@ -43,7 +43,7 @@ eu acesso a tela de login
     Wait For Elements State    ${signIn_xpath}    stable     10s
     Click    ${signIn_xpath}
 
-informo um Email e uma Senha válidos e clico em Sign In
+informo um email e uma senha válidos e clico em "Sign In"
     preencho email e password
     clico no botao sign in
 

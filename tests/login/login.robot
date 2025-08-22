@@ -9,5 +9,5 @@ Suite Teardown    Finish Session
 *** Test Cases ***
 Cenário 1: Login de usuário 
   Dado que eu acesso a tela de login
-  Quando informo um Email e uma Senha válidos e clico em Sign In
+  Quando informo um email e uma senha válidos e clico em "Sign In"
   Então o login é realizado com sucesso
