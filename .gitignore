@@ -1,0 +1,57 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.tmp
+*.log
+*.coverage
+*.sqlite3
+
+# ================================
+# Virtual Environment
+# ================================
+.venv/
+venv/
+ENV/
+env/
+.venv.bak/
+
+# ================================
+# Robot Framework
+# ================================
+# Logs e relatórios gerados
+output.xml
+report.html
+log.html
+*.log
+*.png
+*.jpg
+
+# Pasta de logs (se existir)
+logs/
+results/
+
+# ================================
+# Playwright / Browser
+# ================================
+# Cache do navegador
+playwright-log.txt
+playwright-report/
+test-results/
+trace.zip
+
+# ================================
+# VS Code
+# ================================
+.vscode/
+.history/
+
+# ================================
+# Sistema Operacional
+# ================================
+.DS_Store
+Thumbs.db
