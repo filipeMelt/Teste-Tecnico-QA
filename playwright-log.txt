@@ -1,0 +1,374 @@
+{"level":30,"time":"2025-08-22T06:29:58.525Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Listening on 127.0.0.1:50495"}
+(node:24851) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-08-22T06:29:59.582Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-22T06:30:01.700Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Adding browser to stack: chromium, version: 139.0.7258.5"}
+{"level":30,"time":"2025-08-22T06:30:01.701Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-22T06:30:01.701Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-22T06:30:01.706Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-22T06:30:01.707Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"locale\":\"en-US\",\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2025-08-22T06:30:01.707Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@931d4a9381ff03a762db458e9d99e4d1\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=6bf0cfe0-fd41-4bf9-b182-8eeae51000bd\"}"}
+{"level":30,"time":"2025-08-22T06:30:01.707Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Trace file: "}
+{"level":30,"time":"2025-08-22T06:30:01.712Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Setting default timeout for context context=d11eaf39-08c8-4699-89dc-0b3643845da3 to 10000"}
+{"level":30,"time":"2025-08-22T06:30:01.713Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-22T06:30:01.713Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Changed active context: context=d11eaf39-08c8-4699-89dc-0b3643845da3"}
+{"level":30,"time":"2025-08-22T06:30:01.723Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-22T06:30:01.723Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@931d4a9381ff03a762db458e9d99e4d1\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=d11eaf39-08c8-4699-89dc-0b3643845da3\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@994579e27c335ffe8cce89f0dea15db2\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"locale\":\"en-US\",\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=6bf0cfe0-fd41-4bf9-b182-8eeae51000bd\"}"}
+{"level":30,"time":"2025-08-22T06:30:02.294Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-22T06:30:02.294Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Changed active page"}
+{"level":30,"time":"2025-08-22T06:30:04.287Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-22T06:30:04.294Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:04.294Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with css=header.page-header in page."}
+{"level":30,"time":"2025-08-22T06:30:04.313Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:04.317Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:04.317Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with css=.loading-mask in page."}
+{"level":30,"time":"2025-08-22T06:30:04.319Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:04.323Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-22T06:30:04.324Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-22T06:30:04.329Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:04.329Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class='panel header']//a[contains(@href, \"/customer/account/login/referer\")] in page."}
+{"level":30,"time":"2025-08-22T06:30:04.333Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:04.336Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:04.337Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class='panel header']//a[contains(@href, \"/customer/account/login/referer\")] in page."}
+{"level":30,"time":"2025-08-22T06:30:04.371Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:04.374Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-22T06:30:04.374Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class='panel header']//a[contains(@href, \"/customer/account/login/referer\")] in page."}
+{"level":30,"time":"2025-08-22T06:30:04.975Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method click"}
+{"level":30,"time":"2025-08-22T06:30:04.981Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with id=pass in page."}
+{"level":30,"time":"2025-08-22T06:30:04.981Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:05.171Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:05.174Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-22T06:30:05.174Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-08-22T06:30:05.180Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-22T06:30:05.184Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-22T06:30:05.184Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with id=pass in page."}
+{"level":30,"time":"2025-08-22T06:30:05.188Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-22T06:30:05.192Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:05.192Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with xpath=//fieldset[@class=\"fieldset login\"]//button//span[normalize-space(.)=\"Sign In\"] in page."}
+{"level":30,"time":"2025-08-22T06:30:05.194Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:05.196Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:05.196Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with xpath=//fieldset[@class=\"fieldset login\"]//button//span[normalize-space(.)=\"Sign In\"] in page."}
+{"level":30,"time":"2025-08-22T06:30:05.463Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:05.465Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-22T06:30:05.465Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with xpath=//fieldset[@class=\"fieldset login\"]//button//span[normalize-space(.)=\"Sign In\"] in page."}
+{"level":30,"time":"2025-08-22T06:30:07.514Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method click"}
+{"level":30,"time":"2025-08-22T06:30:07.520Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
+{"level":30,"time":"2025-08-22T06:30:08.686Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.686Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.720Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.722Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.722Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.735Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.736Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.736Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.748Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.749Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.749Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.760Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.761Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.761Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.772Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.773Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.773Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.783Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.784Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.784Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.794Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.795Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.795Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.805Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.806Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.806Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.817Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.818Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.818Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.828Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.829Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.829Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.839Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.840Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.840Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.851Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.852Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.852Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.863Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.865Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.865Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.878Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.879Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.879Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.893Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.894Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.894Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.911Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.913Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.913Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.927Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.928Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.929Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.940Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.941Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.941Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.953Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') resolved to 2 elements:
+    1) <span class="logged-in" data-bind="text: new String('Welcome, %1!').replace('%1', customer().fullname)">↵        </span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').first()
+    2) <span class="not-logged-in" data-bind="html:"Default welcome msg!""></span> aka getByRole('list').filter({ hasText: 'Change My Account My Wish' }).locator('span').nth(1)
+
+Call log:
+[2m  - waiting for locator('body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span') to be visible[22m
+
+    at waitForElementState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:08.954Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.955Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.956Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.958Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.958Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.970Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-22T06:30:08.972Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-08-22T06:30:08.972Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span in page."}
+{"level":30,"time":"2025-08-22T06:30:08.976Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Retrieved text for element body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.greet.welcome > span containing Default welcome msg!"}
+{"level":30,"time":"2025-08-22T06:30:08.976Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-08-22T06:30:08.977Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-08-22T06:30:08.978Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"maincontent\"]/div[2]/div[2]/div/div/div in page."}
+{"level":50,"time":"2025-08-22T06:30:53.979Z","pid":24851,"hostname":"KW9D5JX4GV.local","err":{"type":"TimeoutError","message":"locator.elementHandle: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//*[@id=\"maincontent\"]/div[2]/div[2]/div/div/div')\u001b[22m\n","stack":"locator.elementHandle: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//*[@id=\"maincontent\"]/div[2]/div[2]/div/div/div')\u001b[22m\n\n    at getTextContent (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11580:33)\n    at getText (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11594:21)\n    at async PlaywrightServer.getText (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28)","name":"TimeoutError"},"msg":"locator.elementHandle: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//*[@id=\"maincontent\"]/div[2]/div[2]/div/div/div')\u001b[22m\n"}
+{"level":30,"time":"2025-08-22T06:30:53.979Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Timeout 45000ms exceeded.
+Call log:
+[2m  - waiting for locator('//*[@id="maincontent"]/div[2]/div[2]/div/div/div')[22m
+
+    at getTextContent (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11580:33)
+    at getText (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11594:21)
+    at async PlaywrightServer.getText (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13137:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:53.984Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-22T06:30:53.985Z","pid":24851,"hostname":"KW9D5JX4GV.local","Take screenshot with options: ":{"path":"/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/browser/screenshot/fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":45000,"omitBackground":false}}
+{"level":30,"time":"2025-08-22T06:30:54.243Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-22T06:30:54.251Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-08-22T06:30:54.251Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Strict mode is disabled, return Locator: id=search in page."}
+{"level":30,"time":"2025-08-22T06:30:54.253Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-08-22T06:30:54.255Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-22T06:30:54.256Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-22T06:30:54.258Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-22T06:30:54.261Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Removed page=214797de-7e12-4489-afb1-470aaa0fc7b7 from context=d11eaf39-08c8-4699-89dc-0b3643845da3 page stack"}
+{"level":30,"time":"2025-08-22T06:30:54.342Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-08-22T06:30:54.345Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-22T06:30:54.345Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-22T06:30:56.369Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-22T06:30:56.370Z","pid":24851,"hostname":"KW9D5JX4GV.local","msg":"End of node method closeAllBrowsers"}

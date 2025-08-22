@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on darwin)" generated="2025-08-22T03:29:58.133855" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/tests/login/login.robot">
+<kw name="Start Session" owner="base" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-08-22T03:29:58.219567" level="INFO">{"browser": "chromium", "headless": false, "args": ["--start-maximized"], "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/browser/traces/temp/6162ec76-e4b0-4467-a5b3-f3b0b8561e88"}</msg>
+<msg time="2025-08-22T03:29:58.234983" level="INFO">Starting Browser process /Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:50495</msg>
+<msg time="2025-08-22T03:30:01.702451" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"args":["--start-maximized"],"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/browser/traces/temp/6162ec76-e4b0-4467-a5b3-f3b0b8561e88"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<arg>args=["--start-maximized"]</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-08-22T03:29:58.218922" elapsed="3.484167"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-08-22T03:30:01.705174" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "locale": "en-US",
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": null
+}</msg>
+<msg time="2025-08-22T03:30:01.713659" level="INFO">Successfully created context. </msg>
+<msg time="2025-08-22T03:30:01.713799" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'locale': 'en-US', 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': None}</msg>
+<arg>viewport=None</arg>
+<arg>locale=en-US</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-08-22T03:30:01.703488" elapsed="0.010397"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>45s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2025-08-22T03:30:01.714028" elapsed="0.004918"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-08-22T03:30:04.288871" level="INFO">Successfully initialized new page object and opened url: https://magento2-demo.magebit.com</msg>
+<arg>${base}</arg>
+<arg>wait_until=domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-08-22T03:30:01.719276" elapsed="2.569986"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:04.314268" level="INFO">Waited for Element with selector css=header.page-header at state visible</msg>
+<arg>css=header.page-header</arg>
+<arg>visible</arg>
+<arg>30s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.289488" elapsed="0.025083"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:04.320243" level="INFO">Waited for Element with selector css=.loading-mask at state hidden</msg>
+<arg>css=.loading-mask</arg>
+<arg>hidden</arg>
+<arg>30s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.315098" elapsed="0.005418"/>
+</kw>
+<arg>Wait For Elements State</arg>
+<arg>css=.loading-mask</arg>
+<arg>hidden</arg>
+<arg>30s</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.314798" elapsed="0.005822"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:29:58.218570" elapsed="6.102142"/>
+</kw>
+<test id="s1-t1" name="Cenário 1: Login de usuário" line="10">
+<kw name="Dado que eu acesso a tela de login" owner="gherkin_ptbr" source_name="Dado que ${keyword}">
+<kw name="Run Keyword" owner="BuiltIn">
+<kw name="eu acesso a tela de login" owner="login">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:04.334525" level="INFO">Waited for Element with selector xpath=//div[@class='panel header']//a[contains(@href, "/customer/account/login/referer")] at state visible</msg>
+<arg>${signIn_xpath}</arg>
+<arg>visible</arg>
+<arg>30s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.326934" elapsed="0.008010"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:04.372384" level="INFO">Waited for Element with selector xpath=//div[@class='panel header']//a[contains(@href, "/customer/account/login/referer")] at state stable</msg>
+<arg>${signIn_xpath}</arg>
+<arg>stable</arg>
+<arg>10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.335099" elapsed="0.037560"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-08-22T03:30:04.373328" level="INFO">Clicks the element 'xpath=//div[@class='panel header']//a[contains(@href, "/customer/account/login/referer")]'.</msg>
+<arg>${signIn_xpath}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.372839" elapsed="0.603945"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:04.326702" elapsed="0.650260"/>
+</kw>
+<arg>${keyword}</arg>
+<doc>Executes the given keyword with the given arguments.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.326420" elapsed="0.650619"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:04.325991" elapsed="0.651120"/>
+</kw>
+<kw name="Quando informo um Email e uma Senha válidos e clico em Sign In" owner="gherkin_ptbr" source_name="Quando ${keyword}">
+<kw name="Run Keyword" owner="BuiltIn">
+<kw name="informo um Email e uma Senha válidos e clico em Sign In" owner="login">
+<kw name="preencho email e password" owner="login">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:05.172129" level="INFO">Waited for Element with selector id=pass at state visible</msg>
+<arg>${pass_id}</arg>
+<arg>visible</arg>
+<arg>30s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.979759" elapsed="0.192619"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-08-22T03:30:05.173089" level="INFO">Fills the text 'testeestapar@estapar.com' in the given field.</msg>
+<arg>${email_id}</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-08-22T03:30:05.172554" elapsed="0.008505"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-08-22T03:30:05.182187" level="INFO">Fills the text 'f7R2xQ9pL0zM' in the given field.</msg>
+<arg>${pass_id}</arg>
+<arg>${pass}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-08-22T03:30:05.181354" elapsed="0.007915"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:04.979375" elapsed="0.210115"/>
+</kw>
+<kw name="clico no botao sign in" owner="login">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:05.194412" level="INFO">Waited for Element with selector xpath=//fieldset[@class="fieldset login"]//button//span[normalize-space(.)="Sign In"] at state visible</msg>
+<arg>${buttonSignIn}</arg>
+<arg>visible</arg>
+<arg>30s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:05.190349" elapsed="0.004263"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:05.464099" level="INFO">Waited for Element with selector xpath=//fieldset[@class="fieldset login"]//button//span[normalize-space(.)="Sign In"] at state stable</msg>
+<arg>${buttonSignIn}</arg>
+<arg>stable</arg>
+<arg>10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:05.194750" elapsed="0.269511"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-08-22T03:30:05.464688" level="INFO">Clicks the element 'xpath=//fieldset[@class="fieldset login"]//button//span[normalize-space(.)="Sign In"]'.</msg>
+<arg>${buttonSignIn}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-08-22T03:30:05.464376" elapsed="2.051681"/>
+</kw>
+<kw name="Reload" owner="Browser">
+<msg time="2025-08-22T03:30:08.680974" level="INFO">Reloaded page with options: {"waitUntil": "load"}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Reloads current active page.</doc>
+<status status="PASS" start="2025-08-22T03:30:07.516504" elapsed="1.165024"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:05.189647" elapsed="3.492130"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:04.978371" elapsed="3.703531"/>
+</kw>
+<arg>${keyword}</arg>
+<doc>Executes the given keyword with the given arguments.</doc>
+<status status="PASS" start="2025-08-22T03:30:04.977973" elapsed="3.704017"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:04.977512" elapsed="3.704576"/>
+</kw>
+<kw name="Então o login é realizado com sucesso" owner="gherkin_ptbr" source_name="Então ${keyword}">
+<kw name="Run Keyword" owner="BuiltIn">
+<kw name="o login é realizado com sucesso" owner="login">
+<kw name="valido login" owner="login">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:08.956975" level="INFO">Waited for Element with selector body &gt; div.page-wrapper &gt; header &gt; div.panel.wrapper &gt; div &gt; ul &gt; li.greet.welcome &gt; span at state visible</msg>
+<arg>${validaLogin}</arg>
+<arg>visible</arg>
+<arg>30s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:08.684575" elapsed="0.272568"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-22T03:30:08.970934" level="INFO">Waited for Element with selector body &gt; div.page-wrapper &gt; header &gt; div.panel.wrapper &gt; div &gt; ul &gt; li.greet.welcome &gt; span at state stable</msg>
+<arg>${validaLogin}</arg>
+<arg>stable</arg>
+<arg>10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-22T03:30:08.957262" elapsed="0.013865"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-08-22T03:30:08.976814" level="INFO">Text: 'Default welcome msg!'</msg>
+<msg time="2025-08-22T03:30:08.976946" level="INFO">${txt} = Default welcome msg!</msg>
+<var>${txt}</var>
+<arg>${validaLogin}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-08-22T03:30:08.971251" elapsed="0.005729"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Get Text" owner="Browser">
+<msg time="2025-08-22T03:30:54.244435" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-08-22T03:30:54.244568" level="INFO">See also file:///Users/alexandrealmeida/Downloads/Teste-Tecnico-QA/playwright-log.txt for additional details.</msg>
+<msg time="2025-08-22T03:30:54.244779" level="FAIL">TimeoutError: locator.elementHandle: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator('//*[@id="maincontent"]/div[2]/div[2]/div/div/div')
+</msg>
+<arg>${mensagem_erro_xpath}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="FAIL" start="2025-08-22T03:30:08.977241" elapsed="45.272499">TimeoutError: locator.elementHandle: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator('//*[@id="maincontent"]/div[2]/div[2]/div/div/div')
+</status>
+</kw>
+<msg time="2025-08-22T03:30:54.249884" level="INFO">${temErro} = False</msg>
+<var>${temErro}</var>
+<arg>Get Text</arg>
+<arg>${mensagem_erro_xpath}</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2025-08-22T03:30:08.977079" elapsed="45.272852"/>
+</kw>
+<if>
+<branch type="IF" condition="${temErro}">
+<kw name="Get Text" owner="Browser">
+<var>${txtErro}</var>
+<arg>${mensagem_erro_xpath}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-08-22T03:30:54.250184" elapsed="0.000063"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>"Erro encontrado: ${txtErro}"</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-08-22T03:30:54.250337" elapsed="0.000078"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${txtErro}'=='Incorrect CAPTCHA'</arg>
+<arg>Fail</arg>
+<arg>"Login falhou: ${txtErro}"</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="NOT RUN" start="2025-08-22T03:30:54.250519" elapsed="0.000103"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${txtErro}'=='The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.'</arg>
+<arg>Fail</arg>
+<arg>"Login falhou: ${txtErro}"</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="NOT RUN" start="2025-08-22T03:30:54.250711" elapsed="0.000071"/>
+</kw>
+<status status="NOT RUN" start="2025-08-22T03:30:54.250013" elapsed="0.000810"/>
+</branch>
+<status status="PASS" start="2025-08-22T03:30:54.249992" elapsed="0.000876"/>
+</if>
+<kw name="Get Element Count" owner="Browser">
+<msg time="2025-08-22T03:30:54.253712" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${mensagem_id}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the count of elements found with ``selector``.</doc>
+<status status="PASS" start="2025-08-22T03:30:54.250919" elapsed="0.002869"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${count} &gt; 0</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2025-08-22T03:30:54.253891" elapsed="0.000199"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:08.684261" elapsed="45.569881"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:08.683760" elapsed="45.570425"/>
+</kw>
+<arg>${keyword}</arg>
+<doc>Executes the given keyword with the given arguments.</doc>
+<status status="PASS" start="2025-08-22T03:30:08.683131" elapsed="45.571089"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:08.682585" elapsed="45.571673"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:04.320827" elapsed="49.933651"/>
+</test>
+<kw name="Finish Session" owner="base" type="TEARDOWN">
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-08-22T03:30:54.342716" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-22T03:30:54.257444" elapsed="0.085438"/>
+</kw>
+<status status="PASS" start="2025-08-22T03:30:54.257016" elapsed="0.085938"/>
+</kw>
+<doc>Cenário de login</doc>
+<status status="PASS" start="2025-08-22T03:29:58.135708" elapsed="56.207282"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login" id="s1" pass="1" fail="0" skip="0">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
