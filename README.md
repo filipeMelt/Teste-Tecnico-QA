@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Como executar os testes
 
 1. Clonar o repositório
-    git clone https://seu-repositorio.git
+    git clone https://github.com/filipeMelt/Teste-Tecnico-QA.git
     cd Teste-Tecnico-QA
 
 2. Ativar o ambiente virtual
